@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section className='relative flex flex-col min-h-[90vh] bg-brown z-[1]'>
+    <section id="home" className='relative flex flex-col min-h-[90vh] bg-brown z-[1]'>
         <h1 className='sm:py-64 py-12 font-montserrat self-center text-secondary text-8xl'>Barnabe Debocq</h1>
         <div className="absolute flex flex-col items-center bottom-[10vh] left-1/2 translate-x-[-50%] ">
             <div className="relative w-[50px] h-[80px] border-[3px] border-solid border-[#ffffff] rounded-[25px]">

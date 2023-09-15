@@ -34,9 +34,24 @@ export default {
       backgroundImage: {
         'brown': "url('/wall.webp')",
         'yellow': "url('yellow-whool.webp')",
+        'blue': "url('blue-whool.webp')",
+        'pale-blue': "url('blue.webp')",
       },
       screens: {
         "wide": "1440px"
+      },
+      keyframes: {
+        turnOn: {
+          '100%': {transform: 'rotateY(360deg)'},
+        },
+        fadeInOut: {
+          '0%, 100%': {opacity: '0'},
+          '50%' : {opacity: '1'},
+        },
+      },
+      animation: {
+        turnOn: 'turnOn 3s ease-in-out infinite',
+        fadeInOut: 'fadeInOut 2s infinite'
       }
     },
   },
