@@ -23,4 +23,12 @@ export const projects = [
         github: "https://github.com/Merlin033/Kasa.git",
         prototype: "https://github.com/Merlin033/Kasa.git"
     },
+    {
+        id: "3",
+        title: "ArgentBank",
+        description: "Migration d'un site de location d'hébergements existant, en application web développé avec React. Utilisation de React Router pour une navigation fluide entre les pages de l'application.",
+        img: "/argentBank.png",
+        github: "https://github.com/Merlin033/Argent-Bank.git",
+        prototype: "https://github.com/Merlin033/Argent-Bank.git"
+    },
 ]
