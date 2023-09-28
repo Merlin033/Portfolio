@@ -5,7 +5,7 @@ const Skills = () => {
     <section id="skills" className="flex ">
         <div className="flex-1 flex flex-col">
         <div className="bg-[#66ada1] h-[70vh] flex justify-center items-center shadow-primary">
-            <img src="/html-logo.webp" alt="" className="w-2/3 animate-turnOn max-h-[66%] max-w-[355px]" />
+            <img src="/css-logo.webp" alt="" className="w-2/3 animate-turnOn max-h-[66%] max-w-[355px]" />
         </div>
         <div className="h-[30vh] bg-brown"></div>
         </div>

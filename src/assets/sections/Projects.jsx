@@ -3,7 +3,7 @@ import { projects } from '../constants'
 
 const Projects = () => {
   return (
-    <section id="projects" className='w-full flex h-screen'>
+    <section id="projects" className='w-full flex h-screen wrapper'data-scroll data-scroll-repeat="true">
       <div className='w-1/3 h-full bg-white-400'></div>
       <ul className='flex flex-col gap-10 bg-black w-2/3'>{projects.map((project) => (
         <li key={project.id} className='w-full h-[150px] flex '>
