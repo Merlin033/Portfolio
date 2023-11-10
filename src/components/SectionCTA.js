@@ -1,6 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion"
 
 const SectionCTA = () => {
@@ -12,7 +10,7 @@ const SectionCTA = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
         viewport={{ once: true }}
-      >Vous avez un projet ? Je serai ravi d'en<span className='text-pink-global'> discuter avec vous</span> </motion.p>
+      >Vous avez un projet ? Je serai ravi d&apos;en<span className='text-pink-global'> discuter avec vous</span> </motion.p>
 
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
