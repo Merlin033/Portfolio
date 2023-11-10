@@ -49,7 +49,7 @@ const About = () => {
             <p className='pt-3  text-sm lg:text-[1.2rem] text-gray-light leading-6'>
               N&apos;hésitez pas à parcourir mon portfolio pour découvrir mon
               univers. Si vous souhaitez collaborer ou simplement discuter de
-              projets, je serais ravie d&apos;échanger avec vous !
+              projets, je serais ravi d&apos;échanger avec vous !
             </p>
           </motion.div>
           <motion.div
