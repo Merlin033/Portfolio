@@ -1,57 +1,31 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    fontSize: {
-      xs: ['12px', '16px'],
-      sm: ['14px', '20px'],
-      base: ['16px', '19.5px'],
-      lg: ['18px', '21.94px'],
-      xl: ['20px', '24.38px'],
-      '2xl': ['24px', '29.26px'],
-      '3xl': ['28px', '50px'],
-      '4xl': ['48px', '58px'],
-      '8xl': ['96px', '106px']
-    },
     extend: {
       fontFamily: {
-        palanquin: ['Palanquin', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
+        kaushan: ['var(--font-kaushan)'],
+        poppins: ['var(--font-poppins)'],
       },
       colors: {
-        'primary': "#201814",
-        "secondary": "#FEBA57",
-        "tertiary": "#53b5a6",
-        "spec-black": "#1E1E1E",
-        "white-400": "rgba(255, 255, 255, 0.80)"
-      },
-      boxShadow: {
-        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
+        'gray-global': '#444444',
+        'gray-dark': '#292929',
+        'gray-light': '#999',
+        'pink-global': '#8dd6a2',
+        'pink-light': '#b0f3c3',
+        'pink-ultra-light': '#91f3b0',
+        'off-white': '#fafafa',
       },
       backgroundImage: {
-        'brown': "url('/wall.webp')",
-        'yellow': "url('yellow-whool.webp')",
-        'blue': "url('blue-whool.webp')",
-        'pale-blue': "url('blue.webp')",
+        'banner-img': "url('/img/bg_header.webp')",
+        'bg-black': "url('/img/bg_black.png')",
       },
-      screens: {
-        "wide": "1440px"
-      },
-      keyframes: {
-        turnOn: {
-          '100%': {transform: 'rotateY(360deg)'},
-        },
-        fadeInOut: {
-          '0%, 100%': {opacity: '0'},
-          '50%' : {opacity: '1'},
-        },
-      },
-      animation: {
-        turnOn: 'turnOn 3s ease-in-out infinite',
-        fadeInOut: 'fadeInOut 2s infinite'
+      boxShadow: {
+        '2xl': '0 25px 50px 0 rgba(0, 0, 0, 0.045)',
       }
     },
   },
